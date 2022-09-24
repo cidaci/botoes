@@ -1,0 +1,39 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    text-decoration: none;
+}
+
+body{
+background-color: rgb(146, 70, 218);
+padding: 10px;
+
+}
+.header{
+background-color: rgb(64, 6, 87);
+color: blanchedalmond;
+text-align: center;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 150px;
+    
+}
+.sec{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+#ima{
+    width: 700px;
+    box-shadow: 10px 10px 10px 5px rgb(71, 5, 77);
+    border-color: black;
+}
+.sele{
+    width:150px;
+    height:40px;
+    border:solid 1px;
+    box-shadow: 10px 10px 10px 5px rgb(71, 5, 77);
+}
